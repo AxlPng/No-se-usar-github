@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://pbs.twimg.com/media/GeYZzh0WcAAM8Yo?format=jpg&name=4096x4096");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    margin: 0;
+    color:#000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+.Nav {
+    width: calc(100% - 40px); /* Ajusta el ancho dejando espacio a los lados */
+    margin: 30px auto 20px 20px; /* Separación superior, centrado horizontalmente y separación izquierda */
+    padding: 10px; /* Espacio interno */
+    background-color: #c97a;
+    position: fixed;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box; /* Para incluir padding y borde en el tamaño */
+}
+
+.Nav__List {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+}
+
+
+.Nav__Item{
+    display: inline-block;
+}
+
+.Nav__Link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    transition: text-decoration 2s;
+}
+
+.Nav__Link:hover {
+    text-decoration: underline;
+}
+.Link--Padding{
+    padding: 0;
+}
+
